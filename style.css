@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  width: 100%;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+header {
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  text-align: center;
+}
+header img {
+  margin-top: 11rem;
+}
+
+p {
+  font-size: 1.8rem;
+
+  color: hsl(201, 11%, 66%);
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 4rem;
+  /* width: 600px; */
+}
+
+.h1Heading {
+  text-align: center;
+}
+.h1Heading p {
+  width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+.downloadButtons {
+  display: flex;
+  text-align: center;
+  margin-top: 4rem;
+  justify-content: center;
+  gap: 2rem;
+}
+.downloadButtons button {
+  padding: 1.5rem;
+  border-radius: 3rem;
+  width: 19rem;
+  color: white;
+  border-color: hsl(171, 66%, 44%);
+}
+.downloadButtons button:first-child {
+  background-color: hsl(171, 66%, 44%);
+  border-color: hsl(171, 66%, 44%);
+}
+.downloadButtons button:last-child {
+  background-color: hsl(233, 100%, 69%);
+  border-color: hsl(233, 100%, 69%);
+}
+
+.h2Heading {
+  margin-top: 12rem;
+  text-align: center;
+  /* width: 650px; */
+  margin-bottom: 4rem;
+}
+
+.h2Heading h2 {
+  font-size: 3.2rem;
+}
+
+.h2Heading p {
+  width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7rem;
+  margin-top: 1.5rem;
+}
+
+.macImg {
+  display: flex;
+  gap: 15rem;
+  margin-top: 10rem;
+}
+
+.macImg img {
+  width: 95rem;
+}
+
+.macImg-text {
+  margin-top: 16rem;
+}
+
+.macImg-text h3 {
+  font-size: 2.4rem;
+  margin-top: 5rem;
+}
+.macImg-text p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  width: 32rem;
+}
+
+.devices {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.h3Heading {
+  font-size: 2.4rem;
+}
+
+.threeCol {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 26rem;
+  margin-right: 20rem;
+  gap: 14rem;
+}
+
+.threeCol article {
+  text-align: center;
+  width: 36rem;
+}
+
+.threeCol img {
+  margin-bottom: 3rem;
+}
+
+.threeCol p {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+footer {
+  display: flex;
+  background-color: hsl(206, 19%, 93%);
+  height: 12rem;
+  margin-top: 13rem;
+  /* justify-content: center; */
+  gap: 15rem;
+  align-items: center;
+}
+
+.footLogo {
+  width: 4rem;
+  margin-left: 24rem;
+}
+
+.icons {
+  margin-left: 50rem;
+}
+footer figure img {
+  width: 2rem;
+  margin: 1rem;
+}
+footer p {
+  /* text-align: left; */
+  color: hsl(210, 10%, 33%);
+  /* margin-left: 0px; */
+  padding: 0.5rem;
+}
