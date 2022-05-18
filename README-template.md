@@ -37,10 +37,6 @@ Users should be able to:
 
 ![Desktop Layout](./design/desktop-design.jpg)
 
-#### Mobile Version
-
-![Mobile Layout](./design/mobile-design.jpg)
-
 
 ## My process
 
